@@ -1,0 +1,1 @@
+export { Getry } from "@/getry";
