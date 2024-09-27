@@ -1,6 +1,7 @@
 {
 	"author": "Lovro Žagar",
 	"dependencies": {},
+	"description": "Utility class/factory for retrying asynchronous operations. Support's indefinite or set number of retries and a custom delay time in ms. Powered by generators.",
 	"devDependencies": {
 		"@commitlint/cli": "^18.6.1",
 		"@commitlint/config-conventional": "^18.6.2",
@@ -49,5 +50,5 @@
 	"sideEffects": false,
 	"type": "module",
 	"types": "./dist/index.d.ts",
-	"version": "0.0.1"
+	"version": "0.0.2"
 }
