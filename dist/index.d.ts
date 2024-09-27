@@ -2,7 +2,7 @@
  * A utility class for retrying asynchronous operations.
  * Support's indefinite or set number of retries and a custom delay time in ms.
  */
-declare class Getry {
+declare class RetryGenerator {
     /**
      * Creates a generator of inifinite number of promises that retry the given operation with a delay.
      * Returns T or propagates the error.
@@ -16,4 +16,4 @@ declare class Getry {
     static iterate<T>(generator: Generator<Promise<T>, Promise<T>, unknown>, attempts: number): Promise<T>;
 }
 
-export { Getry };
+export { RetryGenerator };

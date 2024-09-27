@@ -1,1 +1,1 @@
-export { Getry } from "@/getry";
+export { RetryGenerator } from "@/retry-generator";
