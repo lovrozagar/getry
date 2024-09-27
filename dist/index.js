@@ -1,0 +1,1 @@
+class t{static*generate(t,e=1e3){for(let r=0;r<Number.POSITIVE_INFINITY;r++)yield new Promise((r,a)=>{t().then(r).catch(t=>{setTimeout(()=>a(t),e)})})}static async iterate(t,e){for(let r=0;r<e;r++){let a=t.next().value;try{return await a}catch(t){if(r===e-1)throw t}}throw Error("All retry attempts failed")}}export{t as Getry};

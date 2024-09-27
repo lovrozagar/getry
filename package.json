@@ -1,5 +1,5 @@
 {
-	"author": "Name Surname",
+	"author": "Lovro Žagar",
 	"dependencies": {},
 	"devDependencies": {
 		"@commitlint/cli": "^18.6.1",
